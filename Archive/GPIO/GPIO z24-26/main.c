@@ -23,7 +23,7 @@ void LedInit(void) {
 }
 
 enum KeyboardState {RELEASED, BUTTON_0, BUTTON_1, BUTTON_2, BUTTON_3};
-
+//cringe
 enum KeyboardState eKeyboardRead() {
 	if((IO0PIN & S0_bm) == 0) {
 		return BUTTON_0;
