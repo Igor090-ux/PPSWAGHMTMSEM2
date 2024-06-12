@@ -23,3 +23,4 @@ enum KeyboardState eKeyboardRead() {
 void KeyboardInit(void) {
 	IO0DIR = IO0DIR & (~(S0_bm | S1_bm | S2_bm | S3_bm));
 }
+// git test
